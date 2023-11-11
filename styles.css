@@ -1,0 +1,170 @@
+/* fonts */
+/* play-regular - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+/* roboto-serif-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-serif-v13-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-serif-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-serif-v13-latin-600.woff2') format('woff2');
+}
+:root {
+    --color-brand-light: #2B7FFF;
+    --color-brand-dark: #011C44;
+    --color-primary: #FFFFFF;
+    --сolor-secondary: #4A4A4A; 
+    --color-secondary-black: #000000;
+}
+body{
+    color: var(--color-primary);
+    font-family: roboto, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+address{
+    text-decoration: none;
+}
+/* header */
+ul {
+    list-style: none;
+}
+
+.hero-title {
+    color: var(--color-brand-light);
+    font-family: play, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+.header-link {
+    color: var(--color-brand-dark);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.header-link:hover {
+    color: var(--color-brand-light);
+    font-weight: 700;
+    line-height: 1.17;
+}
+.button {
+    background-color: var(--color-brand-light);
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.17;
+    width: 219px;
+    height: 53px;
+    cursor: pointer;
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-brand-dark);
+}
+
+.button-info {
+    color: var(--сolor-secondary);
+}
+
+.secondary-title {
+    color: var(--color-brand-dark);
+    font-family: play, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.15;
+}
+
+.secondary-title .accent {
+    color: var(--color-brand-light);
+    font-family: play, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.15;
+}
+
+/* .about-us-section */
+
+.about-us-info {
+    color: var(--color-brand-dark);
+}
+.about-us-info .accent{
+    color: var(--color-brand-light);
+}
+/* why-us-section */
+.why-us-info {
+    color: var(--color-secondary-black);
+}
+
+/* procederes-section */
+
+
+/* footer */
+.footer-link {
+    color: var(--color-primary);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.footer-link:hover {
+    color: var(--color-brand-light);
+}
+.adress-link{
+    text-decoration: none;
+}
+
+.form-text{
+    color: var(--color-primary);
+}
+
+.form-text .accent{
+    color: var(--color-brand-light);
+}
+
+.adress-link{
+    color: var(--color-primary);
+    font-size: 16px;
+    line-height: 1.17;
+}
+.adress-link:hover{
+    color: var(--color-brand-light);
+}
+.adress-copyright{
+    color: #747272;
+    font-size: 13px;
+    line-height: 1.17;
+}
