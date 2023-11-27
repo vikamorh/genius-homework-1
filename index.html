@@ -9,37 +9,49 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header-section">
     <div class="container">
       <div class="header-container">
         <nav class="header-nav">
-          <div class="logo-container"><img src="/images/logo.svg" alt="логотип beauty zone"></div>
+          <a class="header-logo" href="./index.html">
+            <img class="header-img" src="/images/logo.svg" alt="Beauty Zone logo" />
+          </a>
           <ul class="header-menu">
-            <li><a class="header-link" href="#about-us-section">Про нас</a></li>
-            <li><a class="header-link" href="#why-us-section">Чому ми</a></li>
-            <li><a class="header-link" href="#procedures-section">Наші процедури</a></li>
-            <li><a class="header-link" href="#contacts-section">Контакти</a></li>
+            <li><a class="header-link" href="#about-section">Про нас</a></li>
+            <li><a class="header-link" href="#info-section">Чому ми</a></li>
+            <li>
+              <a class="header-link" href="#procedures-section">
+                Наші процедури
+              </a>
+            </li>
+            <li>
+              <a class="header-link" href="#contact-section">Контакти</a>
+            </li>
           </ul>
-        </nav>
-        <div class="contacts-container">
-          <ul class="item-list">
-            <li><a href="tel:+380960000007">
-                <svg class="addr-soc" width="32" height="32">
-                  <use href="/images/telephone-icons.svg"></use>
+          <ul class="header-social">
+            <li>
+              <a href="tel:+380960000007">
+                <svg width="32px" height="32px" class="header-icon">
+                  <use href="/images/telephone-icon.svg"></use>
                 </svg>
-              </a></li>
-            <li><a href="#">
-                <svg class="addr-soc" width="32" height="32">
+              </a>
+            </li>
+            <li>
+              <a href="https://uk-ua.facebook.com/" target="_blank">
+                <svg width="32px" height="32px" class="header-icon">
                   <use href="/images/facebook-icon.svg"></use>
                 </svg>
-              </a></li>
-            <li><a href="#">
-                <svg class="addr-soc" width="32" height="32">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">
+                <svg width="32px" height="32px" class="header-icon">
                   <use href="/images/instagram-icon.svg"></use>
                 </svg>
-              </a></li>
+              </a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
   </header>
@@ -53,14 +65,14 @@
         <img src="/images/Star-blue.jpg" alt="зірка декораційна">
       </div>
     </section>
-    <section id="about-us-section">
+    <section id="about-section">
       <div class="container">
         <h2 class="secondary-title">Перевтілюйтесь в <span class="accent">Beauty Zone!</span></h2>
-        <p class="about-us-info">
+        <p class="about-info">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p class="about-us-info">
+        <p class="about-info">
           B <span class="accent">Beauty Zone</span> ми гарантуємо найвищі стандарти якості та
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
@@ -71,23 +83,23 @@
         <img src="/images/face-after.jpg" alt="лице після перевтілення">
       </div>
     </section>
-    <section id="why-us-section">
+    <section id="info-section">
       <div class="container">
         <h2 class="secondary-title">Чому люди <span class="accent">обирають нас</span></h2>
         <ul>
           <li>
             <img src="/images/game-icons-materials-science.jpg" alt="іконка науки">
-            <p class="why-us-info">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
+            <p class="info">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
               років</p>
           </li>
           <li>
             <img src="/images/medicinecosmeticsbottletreatment.jpg" alt="іконка косметики">
-            <p class="why-us-info">Використовуємо тільки професійне обладнання та косметику, перевірену
+            <p class="info">Використовуємо тільки професійне обладнання та косметику, перевірену
               часом</p>
           </li>
           <li>
             <img src="/images/ph-crown-light.jpg" alt="іконка корони">
-            <p class="why-us-info">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
+            <p class="info">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
           </li>
         </ul>
       </div>
@@ -134,7 +146,7 @@
       </div>
     </section>
   </main>
-  <footer id="contacts-section">
+  <footer id="contact-section">
     <div class="container">
       <nav>
         <img src="/images/logo.svg" alt="logo">

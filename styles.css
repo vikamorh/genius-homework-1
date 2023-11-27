@@ -47,6 +47,8 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 1.7;
+  display: block;
+  background-color: gainsboro;
 }
 h1,
 h2,
@@ -73,48 +75,70 @@ address {
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
-/* header */
-header {
-  margin: 32px 0px;
+
+/* Header */
+
+.header-section {
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-img {
+  width: 74px;
+  height: 42px;
 }
 
 .header-link {
   color: var(--color-brand-dark);
   text-decoration: none;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.1;
 }
 
 .header-link:hover {
   color: var(--color-brand-light);
-  line-height: 1.17;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  gap: 240px;
+.header-icon {
+  fill: var(--color-brand-dark);
+}
+
+.header-icon:hover {
+  fill: var(--color-brand-light);
 }
 
 .header-nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  gap: 240px;
+}
+
+.header-logo {
+  display: flex;
+  flex-grow: 1;
 }
 
 .header-menu {
   display: flex;
-  gap: 56px;
   flex-grow: 1;
-  justify-content: center;
+  gap: 56px;
+  margin: 0;
+  padding: 0;
 }
 
-.logo-container {
+.header-social {
+  flex-grow: 1;
   display: flex;
-  margin-left: 99px;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
 }
 
 /* hero section */
@@ -176,17 +200,17 @@ header {
   line-height: 1.15;
 }
 
-/* .about-us-section */
+/* .about-section */
 
-.about-us-info {
+.about-info {
   color: var(--color-brand-dark);
   margin-bottom: 40px;
 }
-.about-us-info .accent {
+.about-info .accent {
   color: var(--color-brand-light);
 }
-/* why-us-section */
-.why-us-info {
+/* info-section */
+.info {
   color: var(--color-secondary-black);
 }
 
